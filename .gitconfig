@@ -26,7 +26,8 @@
   unchange = checkout HEAD --
   last = log -1 HEAD --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short --decorate
   hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short --decorate
-  cgl = config --global  --list
+  cgl = config --global --list
+  cll = config --local --list
   cgun = config --global user.name
   cgue = config --global user.email
   clun = config --local user.name
