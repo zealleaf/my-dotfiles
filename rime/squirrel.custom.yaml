@@ -1,0 +1,13 @@
+patch:
+  style/color_scheme: solarized_rock
+  style/color_scheme_dark: solarized_rock
+  style/font_point: 14
+  style/comment_font_point: 14
+  style/label_font_point: 14
+  style/corner_radius: 6
+  style/border_height: -1
+  style/border_width: 1
+  app_options/com.googlecode.iterm2:
+    ascii_mode: true
+    inline: true
+    vim_mode: true
